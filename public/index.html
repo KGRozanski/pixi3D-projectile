@@ -1,0 +1,49 @@
+<!doctype html>
+
+<head>
+  <title></title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+  <style>
+    body {
+      overflow-y: scroll;
+      margin: 0;
+      width: 100%;
+      position: fixed;
+    }
+
+    .range {
+      position: fixed;
+      bottom: 15px;
+      width: 250px;
+      z-index: 1000;
+      transform: scale(1.5);
+      left: 76px;
+    }
+
+    #fire {
+      position: fixed;
+      bottom: 68px;
+      left: 12px;
+      width: 154px;
+      height: 78px;
+      font-size: 2em;
+      font-weight: bold;
+      font-size: 4em;
+      background-color: red;
+      color: white;
+      border: 5px solid black;
+      border-radius: 11px;
+    }
+
+    
+
+  </style>
+</head>
+
+<body>
+  <button id="fire">Fire!</button>
+  <input type="range" min="0" max="100" value="0" class="range" id="range">
+  <script src="app.js"></script>
+</body>
+
+</html>
